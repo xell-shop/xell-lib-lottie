@@ -1,19 +1,49 @@
 {
-  "name": "xell-ui-lottie",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xell-shop/xell-ui-lottie.git"
-  },
-  "author": "xell",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xell-shop/xell-ui-lottie/issues"
-  },
-  "homepage": "https://github.com/xell-shop/xell-ui-lottie#readme"
-}
+    "name": "xell-ui-lottie",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm run build:esm && npm run build:cjs",
+        "build:esm": "echo 'esm'",
+        "build:cjs": "tsc --module commonjs --outDir cjs",
+        "lint": "npx eslint ./src",
+        "lint:fix": "npm run lint -- --fix",
+        "prettier": "npx prettier ./src --check",
+        "prettier:fix": "npm run prettier -- --write",
+        "format": "npm run prettier:fix && npm run lint:fix",
+        "flb": "npm run format && npm run lint && npm run build",
+        "bun-i": "bun i",
+        "remove-bun-lockb": "rm -r bun.lockb",
+        "remove-node-module": "rm -r node_modules",
+        "remove": "npm run remove-node-module && npm run remove-bun-lockb",
+        "update-package": "ncu -u !next",
+        "update": "npm run update-package && npm run remove && npm run bun-i && npm run flb",
+        "u": "npm run update"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xell-shop/xell-ui-lottie.git"
+    },
+    "author": "xell",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/xell-shop/xell-ui-lottie/issues"
+    },
+    "homepage": "https://github.com/xell-shop/xell-ui-lottie#readme",
+    "devDependencies": {
+      "@types/node": "20.8.9",
+      "@types/react-dom": "18.2.14",
+      "@typescript-eslint/eslint-plugin": "^6.9.0",
+      "@typescript-eslint/parser": "^6.9.0",
+      "eslint": "8.52.0",
+      "prettier": "^3.0.3",
+      "ts-loader": "^9.5.0",
+      "tslib": "^2.6.2",
+      "typescript": "^5.2.2"
+    },
+    "files": [
+      "cjs",
+      "esm"
+    ]
+  }
