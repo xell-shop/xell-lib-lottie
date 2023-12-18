@@ -1,8 +1,8 @@
 {
     "name": "xell-ui-lottie",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
-    "main": "index.js",
+    "main": "cjs/index.js",
     "scripts": {
         "build": "npm run build:esm && npm run build:cjs",
         "build:esm": "echo 'esm'",
