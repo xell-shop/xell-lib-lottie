@@ -6,6 +6,7 @@ export * from './Clientes';
 export * from './Compras';
 export * from './Config';
 export * from './Envios';
+export * from './Error';
 export * from './Impuestos';
 export * from './Loader';
 export * from './Login';
