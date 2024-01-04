@@ -12,6 +12,7 @@ export * from './Login';
 export * from './MetasVentas';
 export * from './Products';
 export * from './Providers';
+export * from './Success';
 export * from './Tienda';
 export * from './User';
 export * from './Vendedores';
