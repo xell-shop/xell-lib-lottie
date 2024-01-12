@@ -29,6 +29,306 @@ export declare const lottieLogin: {
             ind: number;
             ty: number;
             nm: string;
+            td: number;
+            refId: string;
+            sr: number;
+            ks: {
+                o: {
+                    a: number;
+                    k: number;
+                };
+                r: {
+                    a: number;
+                    k: number;
+                };
+                p: {
+                    a: number;
+                    k: number[];
+                };
+                a: {
+                    a: number;
+                    k: number[];
+                };
+                s: {
+                    a: number;
+                    k: ({
+                        i: {
+                            x: number[];
+                            y: number[];
+                        };
+                        o: {
+                            x: number[];
+                            y: number[];
+                        };
+                        t: number;
+                        s: number[];
+                    } | {
+                        t: number;
+                        s: number[];
+                        i?: undefined;
+                        o?: undefined;
+                    })[];
+                };
+            };
+            ao: number;
+            w: number;
+            h: number;
+            ip: number;
+            op: number;
+            st: number;
+            bm: number;
+            tt?: undefined;
+            shapes?: undefined;
+        } | {
+            ddd: number;
+            ind: number;
+            ty: number;
+            nm: string;
+            tt: number;
+            sr: number;
+            ks: {
+                o: {
+                    a: number;
+                    k: number;
+                };
+                r: {
+                    a: number;
+                    k: number;
+                };
+                p: {
+                    a: number;
+                    k: ({
+                        i: {
+                            x: number;
+                            y: number;
+                        };
+                        o: {
+                            x: number;
+                            y: number;
+                        };
+                        t: number;
+                        s: number[];
+                        to: number[];
+                        ti: number[];
+                    } | {
+                        t: number;
+                        s: number[];
+                        i?: undefined;
+                        o?: undefined;
+                        to?: undefined;
+                        ti?: undefined;
+                    })[];
+                };
+                a: {
+                    a: number;
+                    k: number[];
+                };
+                s: {
+                    a: number;
+                    k: number[];
+                };
+            };
+            ao: number;
+            shapes: {
+                ty: string;
+                it: ({
+                    ty: string;
+                    d: number;
+                    s: {
+                        a: number;
+                        k: number[];
+                    };
+                    p: {
+                        a: number;
+                        k: number[];
+                    };
+                    r: {
+                        a: number;
+                        k: number;
+                    };
+                    nm: string;
+                    hd: boolean;
+                    c?: undefined;
+                    o?: undefined;
+                    w?: undefined;
+                    lc?: undefined;
+                    lj?: undefined;
+                    ml?: undefined;
+                    bm?: undefined;
+                    a?: undefined;
+                    sk?: undefined;
+                    sa?: undefined;
+                } | {
+                    ty: string;
+                    c: {
+                        a: number;
+                        k: number[];
+                    };
+                    o: {
+                        a: number;
+                        k: number;
+                    };
+                    w: {
+                        a: number;
+                        k: number;
+                    };
+                    lc: number;
+                    lj: number;
+                    ml: number;
+                    bm: number;
+                    nm: string;
+                    hd: boolean;
+                    d?: undefined;
+                    s?: undefined;
+                    p?: undefined;
+                    r?: undefined;
+                    a?: undefined;
+                    sk?: undefined;
+                    sa?: undefined;
+                } | {
+                    ty: string;
+                    c: {
+                        a: number;
+                        k: number[];
+                    };
+                    o: {
+                        a: number;
+                        k: number;
+                    };
+                    r: number;
+                    bm: number;
+                    nm: string;
+                    hd: boolean;
+                    d?: undefined;
+                    s?: undefined;
+                    p?: undefined;
+                    w?: undefined;
+                    lc?: undefined;
+                    lj?: undefined;
+                    ml?: undefined;
+                    a?: undefined;
+                    sk?: undefined;
+                    sa?: undefined;
+                } | {
+                    ty: string;
+                    p: {
+                        a: number;
+                        k: number[];
+                    };
+                    a: {
+                        a: number;
+                        k: number[];
+                    };
+                    s: {
+                        a: number;
+                        k: number[];
+                    };
+                    r: {
+                        a: number;
+                        k: number;
+                    };
+                    o: {
+                        a: number;
+                        k: number;
+                    };
+                    sk: {
+                        a: number;
+                        k: number;
+                    };
+                    sa: {
+                        a: number;
+                        k: number;
+                    };
+                    nm: string;
+                    d?: undefined;
+                    hd?: undefined;
+                    c?: undefined;
+                    w?: undefined;
+                    lc?: undefined;
+                    lj?: undefined;
+                    ml?: undefined;
+                    bm?: undefined;
+                })[];
+                nm: string;
+                bm: number;
+                hd: boolean;
+            }[];
+            ip: number;
+            op: number;
+            st: number;
+            bm: number;
+            td?: undefined;
+            refId?: undefined;
+            w?: undefined;
+            h?: undefined;
+        } | {
+            ddd: number;
+            ind: number;
+            ty: number;
+            nm: string;
+            refId: string;
+            sr: number;
+            ks: {
+                o: {
+                    a: number;
+                    k: number;
+                };
+                r: {
+                    a: number;
+                    k: number;
+                };
+                p: {
+                    a: number;
+                    k: number[];
+                };
+                a: {
+                    a: number;
+                    k: number[];
+                };
+                s: {
+                    a: number;
+                    k: ({
+                        i: {
+                            x: number[];
+                            y: number[];
+                        };
+                        o: {
+                            x: number[];
+                            y: number[];
+                        };
+                        t: number;
+                        s: number[];
+                    } | {
+                        t: number;
+                        s: number[];
+                        i?: undefined;
+                        o?: undefined;
+                    })[];
+                };
+            };
+            ao: number;
+            w: number;
+            h: number;
+            ip: number;
+            op: number;
+            st: number;
+            bm: number;
+            td?: undefined;
+            tt?: undefined;
+            shapes?: undefined;
+        })[];
+        w?: undefined;
+        h?: undefined;
+        u?: undefined;
+        p?: undefined;
+        e?: undefined;
+    } | {
+        id: string;
+        layers: ({
+            ddd: number;
+            ind: number;
+            ty: number;
+            nm: string;
             parent: number;
             sr: number;
             ks: {
@@ -329,7 +629,6 @@ export declare const lottieLogin: {
             op: number;
             st: number;
             bm: number;
-            ef?: undefined;
         } | {
             ddd: number;
             ind: number;
@@ -487,7 +786,6 @@ export declare const lottieLogin: {
             op: number;
             st: number;
             bm: number;
-            ef?: undefined;
         } | {
             ddd: number;
             ind: number;
@@ -512,40 +810,11 @@ export declare const lottieLogin: {
                     k: number[];
                 };
                 s: {
-                    k: {
-                        s: number[];
-                        t: number;
-                        i: {
-                            x: number[];
-                            y: number[];
-                        };
-                        o: {
-                            x: number[];
-                            y: number[];
-                        };
-                    }[];
-                    a?: undefined;
+                    a: number;
+                    k: number[];
                 };
             };
             ao: number;
-            ef: {
-                ty: number;
-                nm: string;
-                np: number;
-                mn: string;
-                ix: number;
-                en: number;
-                ef: {
-                    ty: number;
-                    nm: string;
-                    mn: string;
-                    ix: number;
-                    v: {
-                        a: number;
-                        k: number;
-                    };
-                }[];
-            }[];
             shapes: ({
                 ty: string;
                 it: ({
@@ -751,7 +1020,6 @@ export declare const lottieLogin: {
         ind: number;
         ty: number;
         nm: string;
-        td: number;
         refId: string;
         sr: number;
         ks: {
@@ -783,281 +1051,7 @@ export declare const lottieLogin: {
         op: number;
         st: number;
         bm: number;
-        tt?: undefined;
-        shapes?: undefined;
         ef?: undefined;
-        cl?: undefined;
-    } | {
-        ddd: number;
-        ind: number;
-        ty: number;
-        nm: string;
-        tt: number;
-        sr: number;
-        ks: {
-            o: {
-                a: number;
-                k: number;
-            };
-            r: {
-                a: number;
-                k: number;
-            };
-            p: {
-                a: number;
-                k: ({
-                    i: {
-                        x: number;
-                        y: number;
-                    };
-                    o: {
-                        x: number;
-                        y: number;
-                    };
-                    t: number;
-                    s: number[];
-                    to: number[];
-                    ti: number[];
-                } | {
-                    t: number;
-                    s: number[];
-                    i?: undefined;
-                    o?: undefined;
-                    to?: undefined;
-                    ti?: undefined;
-                })[];
-            };
-            a: {
-                a: number;
-                k: number[];
-            };
-            s: {
-                a: number;
-                k: number[];
-            };
-        };
-        ao: number;
-        shapes: {
-            ty: string;
-            it: ({
-                ty: string;
-                d: number;
-                s: {
-                    a: number;
-                    k: number[];
-                };
-                p: {
-                    a: number;
-                    k: number[];
-                };
-                r: {
-                    a: number;
-                    k: number;
-                };
-                nm: string;
-                hd: boolean;
-                c?: undefined;
-                o?: undefined;
-                w?: undefined;
-                lc?: undefined;
-                lj?: undefined;
-                ml?: undefined;
-                bm?: undefined;
-                a?: undefined;
-                sk?: undefined;
-                sa?: undefined;
-            } | {
-                ty: string;
-                c: {
-                    a: number;
-                    k: number[];
-                };
-                o: {
-                    a: number;
-                    k: number;
-                };
-                w: {
-                    a: number;
-                    k: number;
-                };
-                lc: number;
-                lj: number;
-                ml: number;
-                bm: number;
-                nm: string;
-                hd: boolean;
-                d?: undefined;
-                s?: undefined;
-                p?: undefined;
-                r?: undefined;
-                a?: undefined;
-                sk?: undefined;
-                sa?: undefined;
-            } | {
-                ty: string;
-                c: {
-                    a: number;
-                    k: number[];
-                };
-                o: {
-                    a: number;
-                    k: number;
-                };
-                r: number;
-                bm: number;
-                nm: string;
-                hd: boolean;
-                d?: undefined;
-                s?: undefined;
-                p?: undefined;
-                w?: undefined;
-                lc?: undefined;
-                lj?: undefined;
-                ml?: undefined;
-                a?: undefined;
-                sk?: undefined;
-                sa?: undefined;
-            } | {
-                ty: string;
-                p: {
-                    a: number;
-                    k: number[];
-                };
-                a: {
-                    a: number;
-                    k: number[];
-                };
-                s: {
-                    a: number;
-                    k: number[];
-                };
-                r: {
-                    a: number;
-                    k: number;
-                };
-                o: {
-                    a: number;
-                    k: number;
-                };
-                sk: {
-                    a: number;
-                    k: number;
-                };
-                sa: {
-                    a: number;
-                    k: number;
-                };
-                nm: string;
-                d?: undefined;
-                hd?: undefined;
-                c?: undefined;
-                w?: undefined;
-                lc?: undefined;
-                lj?: undefined;
-                ml?: undefined;
-                bm?: undefined;
-            })[];
-            nm: string;
-            bm: number;
-            hd: boolean;
-        }[];
-        ip: number;
-        op: number;
-        st: number;
-        bm: number;
-        td?: undefined;
-        refId?: undefined;
-        w?: undefined;
-        h?: undefined;
-        ef?: undefined;
-        cl?: undefined;
-    } | {
-        ddd: number;
-        ind: number;
-        ty: number;
-        nm: string;
-        refId: string;
-        sr: number;
-        ks: {
-            o: {
-                k: {
-                    s: number[];
-                    t: number;
-                    i: {
-                        x: number[];
-                        y: number[];
-                    };
-                    o: {
-                        x: number[];
-                        y: number[];
-                    };
-                }[];
-                a?: undefined;
-            };
-            r: {
-                a: number;
-                k: number;
-            };
-            p: {
-                a: number;
-                k: number[];
-            };
-            a: {
-                a: number;
-                k: number[];
-            };
-            s: {
-                a: number;
-                k: number[];
-            };
-        };
-        ao: number;
-        ef: {
-            ty: number;
-            nm: string;
-            np: number;
-            mn: string;
-            ix: number;
-            en: number;
-            ef: ({
-                ty: number;
-                nm: string;
-                mn: string;
-                ix: number;
-                v: {
-                    k: {
-                        s: number[];
-                        t: number;
-                        i: {
-                            x: number[];
-                            y: number[];
-                        };
-                        o: {
-                            x: number[];
-                            y: number[];
-                        };
-                    }[];
-                    a?: undefined;
-                };
-            } | {
-                ty: number;
-                nm: string;
-                mn: string;
-                ix: number;
-                v: {
-                    a: number;
-                    k: number;
-                };
-            })[];
-        }[];
-        w: number;
-        h: number;
-        ip: number;
-        op: number;
-        st: number;
-        bm: number;
-        td?: undefined;
-        tt?: undefined;
         shapes?: undefined;
         cl?: undefined;
     } | {
@@ -1248,11 +1242,9 @@ export declare const lottieLogin: {
         op: number;
         st: number;
         bm: number;
-        td?: undefined;
         refId?: undefined;
         w?: undefined;
         h?: undefined;
-        tt?: undefined;
         cl?: undefined;
     } | {
         ddd: number;
@@ -1289,12 +1281,10 @@ export declare const lottieLogin: {
         op: number;
         st: number;
         bm: number;
-        td?: undefined;
         w?: undefined;
         h?: undefined;
-        tt?: undefined;
-        shapes?: undefined;
         ef?: undefined;
+        shapes?: undefined;
     })[];
     markers: never[];
 };

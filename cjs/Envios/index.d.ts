@@ -1979,6 +1979,152 @@ export declare const lottieEnvios: {
             };
             s: {
                 a: number;
+                k: number[];
+            };
+        };
+        ao: number;
+        shapes: {
+            ty: string;
+            it: ({
+                ind: number;
+                ty: string;
+                ks: {
+                    a: number;
+                    k: {
+                        i: number[][];
+                        o: number[][];
+                        v: number[][];
+                        c: boolean;
+                    };
+                };
+                nm: string;
+                hd: boolean;
+                mm?: undefined;
+                c?: undefined;
+                o?: undefined;
+                r?: undefined;
+                bm?: undefined;
+                p?: undefined;
+                a?: undefined;
+                s?: undefined;
+                sk?: undefined;
+                sa?: undefined;
+            } | {
+                ty: string;
+                mm: number;
+                nm: string;
+                hd: boolean;
+                ind?: undefined;
+                ks?: undefined;
+                c?: undefined;
+                o?: undefined;
+                r?: undefined;
+                bm?: undefined;
+                p?: undefined;
+                a?: undefined;
+                s?: undefined;
+                sk?: undefined;
+                sa?: undefined;
+            } | {
+                ty: string;
+                c: {
+                    a: number;
+                    k: number[];
+                };
+                o: {
+                    a: number;
+                    k: number;
+                };
+                r: number;
+                bm: number;
+                nm: string;
+                hd: boolean;
+                ind?: undefined;
+                ks?: undefined;
+                mm?: undefined;
+                p?: undefined;
+                a?: undefined;
+                s?: undefined;
+                sk?: undefined;
+                sa?: undefined;
+            } | {
+                ty: string;
+                p: {
+                    a: number;
+                    k: number[];
+                };
+                a: {
+                    a: number;
+                    k: number[];
+                };
+                s: {
+                    a: number;
+                    k: number[];
+                };
+                r: {
+                    a: number;
+                    k: number;
+                };
+                o: {
+                    a: number;
+                    k: number;
+                };
+                sk: {
+                    a: number;
+                    k: number;
+                };
+                sa: {
+                    a: number;
+                    k: number;
+                };
+                nm: string;
+                ind?: undefined;
+                ks?: undefined;
+                hd?: undefined;
+                mm?: undefined;
+                c?: undefined;
+                bm?: undefined;
+            })[];
+            nm: string;
+            bm: number;
+            hd: boolean;
+        }[];
+        ip: number;
+        op: number;
+        st: number;
+        bm: number;
+        td?: undefined;
+        refId?: undefined;
+        w?: undefined;
+        h?: undefined;
+        ef?: undefined;
+    } | {
+        ddd: number;
+        ind: number;
+        ty: number;
+        nm: string;
+        parent: number;
+        tt: number;
+        sr: number;
+        ks: {
+            o: {
+                a: number;
+                k: number;
+            };
+            r: {
+                a: number;
+                k: number;
+            };
+            p: {
+                a: number;
+                k: number[];
+            };
+            a: {
+                a: number;
+                k: number[];
+            };
+            s: {
+                a: number;
                 k: ({
                     i: {
                         x: number[];
