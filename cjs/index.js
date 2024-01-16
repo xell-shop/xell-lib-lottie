@@ -8,6 +8,7 @@ tslib_1.__exportStar(require("./Category"), exports);
 tslib_1.__exportStar(require("./Clientes"), exports);
 tslib_1.__exportStar(require("./Compras"), exports);
 tslib_1.__exportStar(require("./Config"), exports);
+tslib_1.__exportStar(require("./Credito"), exports);
 tslib_1.__exportStar(require("./Envios"), exports);
 tslib_1.__exportStar(require("./Error"), exports);
 tslib_1.__exportStar(require("./Impuestos"), exports);

@@ -5,6 +5,7 @@ export * from './Category';
 export * from './Clientes';
 export * from './Compras';
 export * from './Config';
+export * from './Credito';
 export * from './Envios';
 export * from './Error';
 export * from './Impuestos';
