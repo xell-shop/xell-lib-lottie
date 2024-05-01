@@ -45,5 +45,8 @@
     "files": [
       "cjs",
       "esm"
-    ]
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+      }
   }
