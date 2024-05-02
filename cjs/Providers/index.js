@@ -7,8 +7,8 @@ exports.lottieProviders = {
     fr: 24,
     ip: 0,
     op: 240,
-    w: 1e3,
-    h: 1e3,
+    w: 1080,
+    h: 1080,
     nm: 'proveedores animacion',
     ddd: 0,
     assets: [

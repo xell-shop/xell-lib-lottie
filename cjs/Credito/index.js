@@ -7,8 +7,8 @@ exports.lottieCredito = {
     fr: 24,
     ip: 0,
     op: 240,
-    w: 1000,
-    h: 1000,
+    w: 1080,
+    h: 1080,
     nm: 'credito',
     ddd: 0,
     assets: [

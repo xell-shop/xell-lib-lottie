@@ -6,7 +6,7 @@ exports.lottieUser = {
     meta: { g: 'LottieFiles AE 3.3.6', a: '', k: '', d: '', tc: '' },
     fr: 24,
     ip: 0,
-    op: 144,
+    op: 240,
     w: 1080,
     h: 1080,
     nm: 'usuario animacion',
