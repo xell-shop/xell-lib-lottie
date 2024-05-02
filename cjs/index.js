@@ -21,4 +21,5 @@ tslib_1.__exportStar(require("./Success"), exports);
 tslib_1.__exportStar(require("./Tienda"), exports);
 tslib_1.__exportStar(require("./User"), exports);
 tslib_1.__exportStar(require("./Vendedores"), exports);
+tslib_1.__exportStar(require("./Datafono"), exports);
 //# sourceMappingURL=index.js.map

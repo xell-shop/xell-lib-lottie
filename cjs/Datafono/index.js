@@ -1,4 +1,7 @@
-export const lottieDatafono = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.lottieDatafono = void 0;
+exports.lottieDatafono = {
     v: '4.8.0',
     meta: { g: 'LottieFiles AE 3.5.4', a: '', k: '', d: '', tc: '' },
     fr: 24,
@@ -10826,3 +10829,4 @@ export const lottieDatafono = {
         },
     ],
 };
+//# sourceMappingURL=index.js.map

@@ -1,6 +1,6 @@
 {
     "name": "@xell-shop/xell-ui-lottie",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "",
     "main": "cjs/index.js",
     "scripts": {
@@ -22,31 +22,31 @@
         "u": "npm run update"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/xell-shop/xell-ui-lottie.git"
+        "type": "git",
+        "url": "git+https://github.com/xell-shop/xell-ui-lottie.git"
     },
     "author": "xell",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/xell-shop/xell-ui-lottie/issues"
+        "url": "https://github.com/xell-shop/xell-ui-lottie/issues"
     },
     "homepage": "https://github.com/xell-shop/xell-ui-lottie#readme",
     "devDependencies": {
-      "@types/node": "20.8.9",
-      "@types/react-dom": "18.2.14",
-      "@typescript-eslint/eslint-plugin": "^6.9.0",
-      "@typescript-eslint/parser": "^6.9.0",
-      "eslint": "8.52.0",
-      "prettier": "^3.0.3",
-      "ts-loader": "^9.5.0",
-      "tslib": "^2.6.2",
-      "typescript": "^5.2.2"
+        "@types/node": "20.8.9",
+        "@types/react-dom": "18.2.14",
+        "@typescript-eslint/eslint-plugin": "^6.9.0",
+        "@typescript-eslint/parser": "^6.9.0",
+        "eslint": "8.52.0",
+        "prettier": "^3.0.3",
+        "ts-loader": "^9.5.0",
+        "tslib": "^2.6.2",
+        "typescript": "^5.2.2"
     },
     "files": [
-      "cjs",
-      "esm"
+        "cjs",
+        "esm"
     ],
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
-      }
-  }
+    }
+}
