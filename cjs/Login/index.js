@@ -6,7 +6,7 @@ exports.lottieLogin = {
     meta: { g: 'LottieFiles AE 3.5.2', a: '', k: '', d: '', tc: '' },
     fr: 24,
     ip: 0,
-    op: 275,
+    op: 240,
     w: 1080,
     h: 1080,
     nm: 'animacion del login',
