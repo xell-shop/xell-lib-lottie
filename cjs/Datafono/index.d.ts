@@ -461,7 +461,9 @@ export declare const lottieDatafono: {
         ef?: undefined;
         shapes?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -673,7 +675,9 @@ export declare const lottieDatafono: {
         w?: undefined;
         h?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -836,7 +840,9 @@ export declare const lottieDatafono: {
         h?: undefined;
         ef?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -1019,7 +1025,9 @@ export declare const lottieDatafono: {
         h?: undefined;
         ef?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -1101,7 +1109,9 @@ export declare const lottieDatafono: {
         h?: undefined;
         ef?: undefined;
         shapes?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -1268,7 +1278,9 @@ export declare const lottieDatafono: {
         h?: undefined;
         ef?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -1577,7 +1589,9 @@ export declare const lottieDatafono: {
         h?: undefined;
         ef?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
@@ -1784,12 +1798,15 @@ export declare const lottieDatafono: {
         h?: undefined;
         ef?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
         ty: number;
         nm: string;
+        parent: number;
         refId: string;
         sr: number;
         ks: {
@@ -1821,17 +1838,184 @@ export declare const lottieDatafono: {
         op: number;
         st: number;
         bm: number;
-        parent?: undefined;
         ef?: undefined;
         shapes?: undefined;
         t?: undefined;
+        td?: undefined;
         cl?: undefined;
+        tt?: undefined;
+    } | {
+        ddd: number;
+        ind: number;
+        ty: number;
+        nm: string;
+        td: number;
+        sr: number;
+        ks: {
+            o: {
+                a: number;
+                k: number;
+            };
+            r: {
+                a: number;
+                k: number;
+            };
+            p: {
+                a: number;
+                k: number[];
+            };
+            a: {
+                a: number;
+                k: number[];
+            };
+            s: {
+                a: number;
+                k: number[];
+            };
+        };
+        ao: number;
+        shapes: {
+            ty: string;
+            it: ({
+                ind: number;
+                ty: string;
+                ks: {
+                    a: number;
+                    k: {
+                        i: number[][];
+                        o: number[][];
+                        v: number[][];
+                        c: boolean;
+                    };
+                };
+                nm: string;
+                hd: boolean;
+                mm?: undefined;
+                o?: undefined;
+                r?: undefined;
+                bm?: undefined;
+                g?: undefined;
+                s?: undefined;
+                e?: undefined;
+                t?: undefined;
+                p?: undefined;
+                a?: undefined;
+                sk?: undefined;
+                sa?: undefined;
+            } | {
+                ty: string;
+                mm: number;
+                nm: string;
+                hd: boolean;
+                ind?: undefined;
+                ks?: undefined;
+                o?: undefined;
+                r?: undefined;
+                bm?: undefined;
+                g?: undefined;
+                s?: undefined;
+                e?: undefined;
+                t?: undefined;
+                p?: undefined;
+                a?: undefined;
+                sk?: undefined;
+                sa?: undefined;
+            } | {
+                ty: string;
+                o: {
+                    a: number;
+                    k: number;
+                };
+                r: number;
+                bm: number;
+                g: {
+                    p: number;
+                    k: {
+                        a: number;
+                        k: number[];
+                    };
+                };
+                s: {
+                    a: number;
+                    k: number[];
+                };
+                e: {
+                    a: number;
+                    k: number[];
+                };
+                t: number;
+                nm: string;
+                hd: boolean;
+                ind?: undefined;
+                ks?: undefined;
+                mm?: undefined;
+                p?: undefined;
+                a?: undefined;
+                sk?: undefined;
+                sa?: undefined;
+            } | {
+                ty: string;
+                p: {
+                    a: number;
+                    k: number[];
+                };
+                a: {
+                    a: number;
+                    k: number[];
+                };
+                s: {
+                    a: number;
+                    k: number[];
+                };
+                r: {
+                    a: number;
+                    k: number;
+                };
+                o: {
+                    a: number;
+                    k: number;
+                };
+                sk: {
+                    a: number;
+                    k: number;
+                };
+                sa: {
+                    a: number;
+                    k: number;
+                };
+                nm: string;
+                ind?: undefined;
+                ks?: undefined;
+                hd?: undefined;
+                mm?: undefined;
+                bm?: undefined;
+                g?: undefined;
+                e?: undefined;
+                t?: undefined;
+            })[];
+            nm: string;
+            bm: number;
+            hd: boolean;
+        }[];
+        ip: number;
+        op: number;
+        st: number;
+        bm: number;
+        parent?: undefined;
+        refId?: undefined;
+        w?: undefined;
+        h?: undefined;
+        ef?: undefined;
+        t?: undefined;
+        cl?: undefined;
+        tt?: undefined;
     } | {
         ddd: number;
         ind: number;
         ty: number;
         nm: string;
         cl: string;
+        tt: number;
         refId: string;
         sr: number;
         ks: {
@@ -1867,6 +2051,7 @@ export declare const lottieDatafono: {
         ef?: undefined;
         shapes?: undefined;
         t?: undefined;
+        td?: undefined;
     })[];
     markers: never[];
     chars: {

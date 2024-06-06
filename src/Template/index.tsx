@@ -1,1 +1,1 @@
-export const lottieTemplate = {}
+export const lottieTemplate = {};
