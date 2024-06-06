@@ -19,3 +19,4 @@ export * from './Tienda';
 export * from './User';
 export * from './Vendedores';
 export * from './Datafono';
+export * from './Envios2';
