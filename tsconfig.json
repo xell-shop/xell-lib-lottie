@@ -1,5 +1,5 @@
 {
-  "include": ["lottie/*", "lottie/styles/*.css"],
+  "include": ["src/*", "src/styles/*.css"],
   "exclude": [
       "cjs",
       "esm",
@@ -14,8 +14,8 @@
       "importHelpers": true,
       "declaration": true,
       "sourceMap": true,
-      "baseUrl": "lottie",
-      "rootDir": "lottie",
+      "baseUrl": "src",
+      "rootDir": "src",
       "outDir": "./esm",
       "strict": true,
       "noImplicitReturns": true,
@@ -28,7 +28,7 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "paths": {
-          "@/*": ["*", "lottie/*"]
+          "@/*": ["*", "src/*"]
       },
       "target": "esnext",
       "emitDecoratorMetadata": true,

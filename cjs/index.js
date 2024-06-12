@@ -1,40 +1,31 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const tslib_1 = require("tslib");
-tslib_1.__exportStar(require("./Bodegas"), exports);
-tslib_1.__exportStar(require("./Cajas"), exports);
-tslib_1.__exportStar(require("./Canasta"), exports);
-tslib_1.__exportStar(require("./Category"), exports);
-tslib_1.__exportStar(require("./Clientes"), exports);
-tslib_1.__exportStar(require("./Compras"), exports);
-tslib_1.__exportStar(require("./Config"), exports);
-tslib_1.__exportStar(require("./Credito"), exports);
-tslib_1.__exportStar(require("./Envios"), exports);
-tslib_1.__exportStar(require("./Error"), exports);
-tslib_1.__exportStar(require("./Impuestos"), exports);
-tslib_1.__exportStar(require("./Loader"), exports);
-tslib_1.__exportStar(require("./Login"), exports);
-tslib_1.__exportStar(require("./MetasVentas"), exports);
-tslib_1.__exportStar(require("./Products"), exports);
-tslib_1.__exportStar(require("./Providers"), exports);
-tslib_1.__exportStar(require("./Success"), exports);
-tslib_1.__exportStar(require("./Tienda"), exports);
-tslib_1.__exportStar(require("./User"), exports);
-tslib_1.__exportStar(require("./Vendedores"), exports);
-tslib_1.__exportStar(require("./Datafono"), exports);
-tslib_1.__exportStar(require("./CrearComiciones"), exports);
-tslib_1.__exportStar(require("./CrearCuentaBancaria"), exports);
-tslib_1.__exportStar(require("./CrearDescuento"), exports);
-tslib_1.__exportStar(require("./CrearMarcas"), exports);
-tslib_1.__exportStar(require("./MetasComisiones"), exports);
-tslib_1.__exportStar(require("./EnviosConfiguracion"), exports);
-tslib_1.__exportStar(require("./Envios2"), exports);
-tslib_1.__exportStar(require("./CrearVentas"), exports);
-tslib_1.__exportStar(require("./CentroCosto"), exports);
-tslib_1.__exportStar(require("./ConectarFacturador"), exports);
-tslib_1.__exportStar(require("./CrearParametrizacionDeCuentasContables"), exports);
-tslib_1.__exportStar(require("./CrearPreferenciaDePago"), exports);
-tslib_1.__exportStar(require("./GestionarNumeracion"), exports);
-tslib_1.__exportStar(require("./MigracionDeDatos"), exports);
-tslib_1.__exportStar(require("./PreferenciaDePago"), exports);
+exports.getDataLottie = exports.getFetchCodeLottie = exports.getRuteLottie = exports.getRuteDir = void 0;
+const getRuteDir = () => {
+    return process?.env?.['NEXT_PUBLIC_LOTTIE'] ?? `/`;
+};
+exports.getRuteDir = getRuteDir;
+const getRuteLottie = (lottie) => {
+    return `${(0, exports.getRuteDir)()}/${lottie}.json`;
+};
+exports.getRuteLottie = getRuteLottie;
+const getFetchCodeLottie = async (url) => {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            return await response.json();
+        }
+        else {
+            return {};
+        }
+    }
+    catch {
+        return {};
+    }
+};
+exports.getFetchCodeLottie = getFetchCodeLottie;
+const getDataLottie = async (lottie) => {
+    return await (0, exports.getFetchCodeLottie)((0, exports.getRuteLottie)(lottie));
+};
+exports.getDataLottie = getDataLottie;
 //# sourceMappingURL=index.js.map
