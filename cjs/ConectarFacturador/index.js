@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ConectarFacturador = void 0;
-exports.ConectarFacturador = {
+exports.lottieConectarFacturador = void 0;
+exports.lottieConectarFacturador = {
     v: '4.8.0',
     meta: { g: 'LottieFiles AE 3.5.6', a: '', k: '', d: '', tc: '' },
     fr: 24,

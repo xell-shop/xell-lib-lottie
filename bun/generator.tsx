@@ -10,5 +10,8 @@ const main = async () => {
             createDirs: true,
         });
     }
+    await Bun.write(`./src/typeLottie.tsx`, `export type typeLottie = "${ITEMS.join('"|"')}"`, {
+        createDirs: true,
+    });
 };
 main();

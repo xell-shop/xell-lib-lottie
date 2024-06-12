@@ -1,4 +1,4 @@
-export declare const ConectarFacturador: {
+export declare const lottieConectarFacturador: {
     v: string;
     meta: {
         g: string;
