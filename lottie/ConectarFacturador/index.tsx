@@ -1,4 +1,4 @@
-export const ConectarFacturador = {
+export const lottieConectarFacturador = {
     v: '4.8.0',
     meta: { g: 'LottieFiles AE 3.5.6', a: '', k: '', d: '', tc: '' },
     fr: 24,
