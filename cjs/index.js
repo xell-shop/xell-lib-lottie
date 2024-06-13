@@ -12,15 +12,10 @@ exports.getRuteLottie = getRuteLottie;
 const getFetchCodeLottie = async (url) => {
     try {
         const response = await fetch(url);
-        if (response.ok) {
-            return await response.json();
-        }
-        else {
-            return {};
-        }
+        return await response.json();
     }
     catch {
-        return {};
+        throw new Error('No se cargo el lottie');
     }
 };
 exports.getFetchCodeLottie = getFetchCodeLottie;
