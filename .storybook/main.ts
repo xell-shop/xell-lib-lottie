@@ -19,8 +19,8 @@ const config: StorybookConfig = {
       ...config,
       NEXT_PUBLIC_STORYBOK: "TRUE",
       NEXT_PUBLIC_MOCKDATA: "TRUE",
+      NEXT_PUBLIC_LOTTIE : "https://xell-ui-lottie-bucket.s3.amazonaws.com"
   }),
-  staticDirs: ['../public'],
 
 };
 export default config;

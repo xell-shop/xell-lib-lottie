@@ -20,7 +20,8 @@
         "update-package": "ncu -u !next",
         "update": "npm run update-package && npm run remove && npm run bun-i && npm run flb",
         "u": "npm run update",
-        "generate": "bun ./bun/generator.tsx"
+        "generate": "bun ./bun/generator.tsx",
+        "storybook": "storybook dev -p 6006"
     },
     "repository": {
         "type": "git",
