@@ -1,5 +1,3 @@
-const { NEXT_PUBLIC_LOTTIE: RUTE = '/' } = process.env;
-
 export const ENV_LOTTIE = {
-    RUTE,
+    RUTE: process?.env?.['NEXT_PUBLIC_LOTTIE'] ?? '/',
 };
