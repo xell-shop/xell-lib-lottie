@@ -39,7 +39,7 @@
     "homepage": "https://github.com/xell-shop/xell-ui-lottie#readme",
     "dependencies": {
         "@xell-shop/xell-lib-error": "^4.0.26",
-        "@xell-shop/xell-lib-fenextjs": "^12.2.18",
+        "@xell-shop/xell-lib-fenextjs": "^12.2.19",
         "fenextjs": "^13.7.0",
         "react-lottie-player": "^2.1.0"
     },
