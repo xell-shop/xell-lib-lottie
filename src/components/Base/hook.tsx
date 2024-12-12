@@ -1,8 +1,5 @@
 import { typeLottie } from '../../interface';
-import {
-    getDataLottie,
-    getRuteLottie,
-} from '../../get';
+import { getDataLottie, getRuteLottie } from '../../get';
 import { useRequestLite } from 'fenextjs';
 import { useEffect } from 'react';
 import { useError } from '@xell-shop/xell-lib-error';

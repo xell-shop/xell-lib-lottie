@@ -2,7 +2,7 @@ import { ENV_LOTTIE } from '../env';
 import { typeLottie } from '../interface';
 
 export const getRuteDir = () => {
-    return ENV_LOTTIE.RUTE
+    return ENV_LOTTIE.RUTE;
 };
 
 export const getRuteLottie = (lottie: typeLottie) => {

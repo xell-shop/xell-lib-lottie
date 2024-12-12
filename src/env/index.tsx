@@ -1,8 +1,5 @@
-const { 
-    NEXT_PUBLIC_LOTTIE : RUTE = '/'
-} = process?.env
-
+const { NEXT_PUBLIC_LOTTIE: RUTE = '/' } = process.env;
 
 export const ENV_LOTTIE = {
-    RUTE
-}
+    RUTE,
+};

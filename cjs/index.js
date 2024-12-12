@@ -1,26 +1,44 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getDataLottie = exports.getFetchCodeLottie = exports.getRuteLottie = exports.getRuteDir = void 0;
-const getRuteDir = () => {
-    return process?.env?.['NEXT_PUBLIC_LOTTIE'] ?? `/`;
-};
-exports.getRuteDir = getRuteDir;
-const getRuteLottie = (lottie) => {
-    return `${(0, exports.getRuteDir)()}/${lottie}.json`;
-};
-exports.getRuteLottie = getRuteLottie;
-const getFetchCodeLottie = async (url) => {
-    try {
-        const response = await fetch(url);
-        return await response.json();
-    }
-    catch {
-        throw new Error('No se cargo el lottie');
-    }
-};
-exports.getFetchCodeLottie = getFetchCodeLottie;
-const getDataLottie = async (lottie) => {
-    return await (0, exports.getFetchCodeLottie)((0, exports.getRuteLottie)(lottie));
-};
-exports.getDataLottie = getDataLottie;
+const tslib_1 = require("tslib");
+tslib_1.__exportStar(require("./env"), exports);
+tslib_1.__exportStar(require("./interface"), exports);
+tslib_1.__exportStar(require("./get"), exports);
+tslib_1.__exportStar(require("./components/Datafono"), exports);
+tslib_1.__exportStar(require("./components/CrearDescuento"), exports);
+tslib_1.__exportStar(require("./components/Canasta"), exports);
+tslib_1.__exportStar(require("./components/Credito"), exports);
+tslib_1.__exportStar(require("./components/Impuestos"), exports);
+tslib_1.__exportStar(require("./components/Cajas"), exports);
+tslib_1.__exportStar(require("./components/CrearComiciones"), exports);
+tslib_1.__exportStar(require("./components/Products"), exports);
+tslib_1.__exportStar(require("./components/CrearVentas"), exports);
+tslib_1.__exportStar(require("./components/Clientes"), exports);
+tslib_1.__exportStar(require("./components/Envios"), exports);
+tslib_1.__exportStar(require("./components/Category"), exports);
+tslib_1.__exportStar(require("./components/PreferenciaDePago"), exports);
+tslib_1.__exportStar(require("./components/Success"), exports);
+tslib_1.__exportStar(require("./components/MigracionDeDatos"), exports);
+tslib_1.__exportStar(require("./components/CentroCosto"), exports);
+tslib_1.__exportStar(require("./components/Error"), exports);
+tslib_1.__exportStar(require("./components/Bodegas"), exports);
+tslib_1.__exportStar(require("./components/Compras"), exports);
+tslib_1.__exportStar(require("./components/Login"), exports);
+tslib_1.__exportStar(require("./components/CrearMarcas"), exports);
+tslib_1.__exportStar(require("./components/ConectarFacturador"), exports);
+tslib_1.__exportStar(require("./components/Base"), exports);
+tslib_1.__exportStar(require("./components/EnviosConfiguracion"), exports);
+tslib_1.__exportStar(require("./components/User"), exports);
+tslib_1.__exportStar(require("./components/Providers"), exports);
+tslib_1.__exportStar(require("./components/Tienda"), exports);
+tslib_1.__exportStar(require("./components/MetasVentas"), exports);
+tslib_1.__exportStar(require("./components/Config"), exports);
+tslib_1.__exportStar(require("./components/CrearPreferenciaDePago"), exports);
+tslib_1.__exportStar(require("./components/Vendedores"), exports);
+tslib_1.__exportStar(require("./components/GestionarNumeracion"), exports);
+tslib_1.__exportStar(require("./components/CrearParametrizacionDeCuentasContables"), exports);
+tslib_1.__exportStar(require("./components/Envios2"), exports);
+tslib_1.__exportStar(require("./components/CrearCuentaBancaria"), exports);
+tslib_1.__exportStar(require("./components/Loader"), exports);
+tslib_1.__exportStar(require("./components/MetasComisiones"), exports);
 //# sourceMappingURL=index.js.map
