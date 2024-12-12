@@ -3,6 +3,6 @@ const {
 } = process?.env
 
 
-export const ENV = {
+export const ENV_LOTTIE = {
     RUTE
 }
