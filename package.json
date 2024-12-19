@@ -23,9 +23,12 @@
         "remove-lock": "npm run remove-bun-lock && npm run remove-pnpm-lock && npm run remove-npm-lock",
         "remove-node-module": "rm -r node_modules || true",
         "remove": "npm run remove-node-module && npm run remove-lock",
-        "update-package": "ncu -u '/^fenextjs.*$/' '/^xell-ui-.*$/' '/^@xell-shop.*$/'",
+        "update-package": "ncu -u '/^@byte4bit-fenextjs.*$/' '/^xell-ui-.*$/' '/^@xell-shop.*$/'",
         "update": "npm run update-package && npm run remove && npm run update-i && npm run update-lock && npm run flb",
-        "u": "npm run update && git add . && git commit -m update && git push"
+        "u": "npm run update && git add . && git commit -m update && git push",
+        "remove-pnpm": "pnpm remove-node-module && pnpm remove-pnpm-lock",
+        "update-pnpm": "git pull && pnpm update-package && pnpm remove-pnpm && pnpm i && pnpm flb",
+        "u-pnpm": "pnpm update-pnpm"
     },
     "repository": {
         "type": "git",
@@ -38,9 +41,9 @@
     },
     "homepage": "https://github.com/xell-shop/xell-ui-lottie#readme",
     "dependencies": {
-        "@xell-shop/xell-lib-error": "4.0.27",
-        "@xell-shop/xell-lib-fenextjs": "12.4.0",
-        "fenextjs": "^13.7.1",
+        "@xell-shop/xell-lib-error": "5.0.0",
+        "@xell-shop/xell-lib-fenextjs": "13.0.0",
+        "@byte4bit-fenextjs/fenextjs": "13.7.1",
         "react-lottie-player": "^2.1.0"
     },
     "devDependencies": {

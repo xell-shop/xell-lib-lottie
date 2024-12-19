@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useLottieBase = void 0;
 const get_1 = require("../../get");
-const fenextjs_1 = require("fenextjs");
 const react_1 = require("react");
 const xell_lib_error_1 = require("@xell-shop/xell-lib-error");
+const fenextjs_1 = require("@byte4bit-fenextjs/fenextjs");
 const useLottieBase = ({ img }) => {
     const { parseError } = (0, xell_lib_error_1.useError)();
     const { error, loader, result, onRequest } = (0, fenextjs_1.useRequestLite)({
