@@ -1,6 +1,6 @@
 {
     "name": "@xell-shop/xell-lib-lottie",
-    "version": "4.0.3",
+    "version": "4.0.4",
     "description": "",
     "main": "cjs/index.js",
     "scripts": {
