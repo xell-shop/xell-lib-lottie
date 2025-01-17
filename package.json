@@ -28,7 +28,11 @@
         "u": "npm run update && git add . && git commit -m update && git push",
         "remove-pnpm": "pnpm remove-node-module && pnpm remove-pnpm-lock",
         "update-pnpm": "git pull && pnpm update-package && pnpm remove-pnpm && pnpm i && pnpm flb",
-        "u-pnpm": "pnpm update-pnpm"
+        "u-pnpm": "pnpm update-pnpm",
+        "cu": "git add . && git commit -m \"chore: :arrow_up: upgrade dependencies\" && npm run version:patch",
+        "version:minor": "npm version minor -m \"chore: :bookmark: %s\"",
+        "version:patch": "npm version patch -m \"chore: :bookmark: %s\"",
+        "version:major": "npm version major -m \"chore: :bookmark: %s\""
     },
     "repository": {
         "type": "git",
@@ -41,9 +45,9 @@
     },
     "homepage": "https://github.com/xell-shop/xell-ui-lottie#readme",
     "dependencies": {
-        "@xell-shop/xell-lib-error": "5.0.4",
-        "@xell-shop/xell-lib-fenextjs": "13.0.12",
-        "@byte4bit-fenextjs/fenextjs": "13.7.4",
+        "@xell-shop/xell-lib-error": "5.0.5",
+        "@xell-shop/xell-lib-fenextjs": "13.0.13",
+        "@byte4bit-fenextjs/fenextjs": "13.7.5",
         "react-lottie-player": "^2.1.0"
     },
     "devDependencies": {
